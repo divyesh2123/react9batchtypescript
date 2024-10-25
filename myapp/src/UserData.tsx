@@ -3,6 +3,7 @@ import { IUser } from './iterface/IUser';
 
 export default function UserData() {
 
+
     const [data,setData]= useState<IUser[]>([]);
 
     useEffect(()=>{
